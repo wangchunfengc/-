@@ -1,0 +1,37 @@
+static_library("test") {
+    sources = [
+        "endtest.c",
+        "src/lcd.c",
+        "src/picture.c",
+        "src/eeprom.c",
+        "src/oc_mqtt.c",
+        "src/oc_mqtt_profile_package.c",
+        # "src/su_03t.c"
+        
+    ]
+
+    include_dirs = [
+        "//utils/native/lite/include",#ohos_init.h
+        "include",
+        "//base/iot_hardware/peripheral/interfaces/kits",#los_task.h
+        "/home/openharmony/test/txsmartropenharmony/kernel/liteos_m/kernel/include",#los_swtmr.h
+        "//device/rockchip/rk2206/sdk_liteos/board/include",
+        "//third_party/lwip/src/include/lwip",
+        "test/txsmartropenharmony/third_party/paho_mqtt/MQTTClient-C/src/",
+        "test/txsmartropenharmony/third_party/cJSON/",
+            "//utils/native/lite/include",
+            "test/txsmartropenharmony/third_party/cJSON",
+            "//utils/native/lite/include",
+        "//third_party/cJSON",
+        "//third_party/musl/porting/liteos_m/kernel/include",
+        "//third_party/paho_mqtt/MQTTPacket/src",
+        "//third_party/paho_mqtt/MQTTClient-C/src",
+        "include",
+
+    ]
+
+    deps = [
+        "//device/rockchip/hardware:hardware",
+        "//kernel/liteos_m/kal/posix",
+    ]
+}

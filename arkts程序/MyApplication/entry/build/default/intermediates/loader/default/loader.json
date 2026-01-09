@@ -1,0 +1,25 @@
+{
+  "modulePathMap": {
+    "entry": "D:\\ark\\MyApplication\\entry"
+  },
+  "compileMode": "esmodule",
+  "projectRootPath": "D:\\ark\\MyApplication",
+  "nodeModulesPath": "D:\\ark\\MyApplication\\entry\\build\\default\\intermediates\\loader_out\\default\\node_modules",
+  "byteCodeHarInfo": {},
+  "declarationEntry": [],
+  "moduleName": "entry",
+  "hspNameOhmMap": {},
+  "harNameOhmMap": {},
+  "packageManagerType": "ohpm",
+  "compileEntry": [],
+  "otherCompileFiles": [],
+  "dynamicImportLibInfo": {},
+  "routerMap": [],
+  "hspResourcesMap": {},
+  "updateVersionInfo": {},
+  "anBuildOutPut": "D:\\ark\\MyApplication\\entry\\build\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
+  "anBuildMode": "type",
+  "patchConfig": {
+    "changedFileList": "D:\\ark\\MyApplication\\entry\\build\\default\\intermediates\\patch\\default\\changedFileList.json"
+  }
+}
